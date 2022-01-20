@@ -46,40 +46,7 @@ span a{
 
 
 
-/* mobile devices max-width:992px */
-@media screen  and (max-width:992px) {
-    body{
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-    nav{
-        background-color: #eff3f3;
-        padding: 0;
-    }
-    .header-menu{
-        position: absolute;
-        background-color: #eff3f3;
-        left: 0;
-        height:92vh;
-        top:8vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transform: translateY(100%);
-        
-    }
-    span  .fa-cart-arrow-down{
-        display: block;
-    }
-    .menu-bar{
-        display: block;
-        cursor: pointer;
-    }
-    .menu-bar:hover ~ .header-menu{
-        transform: translateX(0%);
-        transition: transform 1s linear;  
-    } 
-};
+
 
 
 
