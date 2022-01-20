@@ -106,13 +106,48 @@ span .shopping-cart{
 .image-one img{
     width: 100%;
 }
+/*------ section one start here ---------
+---------------------------------------- */
+
+/* section two start here--------------
+-------------------------------------  */
+.logos{
+    position: relative;
+    top: 150px;
+}
+.logo-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 75%;
+    left: 165px;
+}
+.logo-img img {
+    width: 84px;
+    height: 25.5px;
+    padding: 10px 0 10px 0;
+
+}
+hr{
+    width: 70%;
+    height: 3px;
+    border: none;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, #C0CCDA1A, #C0CCDA99, #C0CCDA1A);
+    position: relative;
+    left: 35px;
+    
+}
+/* section two end here  */
 
 
-
-/* section one start here  */
-
-
-
+.section-three div{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 1000px;
+}
 
 
 

@@ -56,6 +56,22 @@
         width: 130%;
         position: relative;
     }
+    .logo-img{
+       justify-content: center;
+       position: relative;
+       left: 50px;
+    }
+    .logo-img img{
+        padding-right: 40px;
+    }
+    .img-align{
+        
+    }
+    
+    /* .logo-img img{
+        position: relative;
+        /* right: 100px; */
+    } */
 };
 /* tablet device min-width:688px to max-width:992px */
 /* @media screen and (min-width:688px) and (max-width:992px)  {
