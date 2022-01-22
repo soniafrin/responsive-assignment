@@ -64,14 +64,16 @@
     .logo-img img{
         padding-right: 40px;
     }
-    .img-align{
-        
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
+    .see-more-button{
+        left: 250px;
+        bottom: 15px;
+    }
+  
     
-    /* .logo-img img{
-        position: relative;
-        /* right: 100px; */
-    } */
 };
 /* tablet device min-width:688px to max-width:992px */
 /* @media screen and (min-width:688px) and (max-width:992px)  {

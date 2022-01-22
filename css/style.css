@@ -224,7 +224,28 @@ hr{
     width: 170px;
     position: relative;
     top: -45px;
-    margin-bottom: 0;
+    margin-bottom: 0; 
+}
+.see-more-button{
+    width: 99px;
+    height: 24px;
+    position: relative;
+    left: 955px;
+    bottom: 15px;
+}
+.see-more-button a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #E02C6DDE;
+    font-weight: 700;
+}
+/* arrow-forward 1 */
+.see-more{
+    font-size: 14px;
+    width: 16px;
+    height: 14px;
+    color: #E02C6DDE;
+    font-weight: 700;
     
 }
 
