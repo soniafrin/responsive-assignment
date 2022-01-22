@@ -113,7 +113,7 @@ span .shopping-cart{
 -------------------------------------  */
 .logos{
     position: relative;
-    top: 150px;
+    top: 170px;
 }
 .logo-img{
     display: flex;
@@ -122,7 +122,7 @@ span .shopping-cart{
     align-items: center;
     position: relative;
     width: 75%;
-    left: 165px;
+    left: 155px;
 }
 .logo-img img {
     width: 84px;
@@ -307,7 +307,8 @@ footer{
 }
 .all-footer{
     position: relative;
-    top: 55px;
+    top: 65px;
+    right: 50px;
 }
 footer h3{
     font-size: 24px;
