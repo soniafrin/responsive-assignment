@@ -2,10 +2,10 @@
 
 /* mobile devices max-width:688px */
 @media (max-width:688px){
-    /* body{
+     body{
         overflow-x: hidden;
-        overflow-y: hidden;
-    } */
+        /* overflow-y: hidden; */
+    } 
     nav{
         background-color: #eff3f3;
         padding: 0;
@@ -75,80 +75,28 @@
         left: 250px;
         bottom: 15px;
     }
+    .explore{
+        height: 110vh;
+        width: 48vw;
+        position: relative;
+        left: 87px;
+        text-align: center;
+    }
+    .explore-heading{
+        margin-left: 50px;
+        margin-top: 0;
+        font-size: 62px;
+    }
+    .form-div a{
+        font-size: 5px;
+    }
+    footer{
+        height: 200px;
+    }
+    .all-footer{
+        width: 100%;
+        right: 390px;
+        top: 60px;
+    }
 };
 /* tablet device min-width:689px to max-width:992px */
-@media (min-width:689px) and (max-width:992px){
-    /* body{
-        overflow-x: hidden;
-        overflow-y: hidden;
-    } */
-    nav{
-        background-color: #eff3f3;
-        padding: 0;
-    }
-    .header-menu{
-        position: absolute;
-        width: 20%;
-        background-color: #eff3f3;
-        left: 0;
-        height:92vh;
-        top:8vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transform: translateX(-100%);
-        
-    }
-    .header-menu li{
-        position: relative;
-        right: 20px;
-    }
-    span  .fa-cart-arrow-down{
-        display: block;
-    }
-    .menu-bar{
-        display: block;
-        cursor: pointer;
-    }
-    .menu-bar:hover ~ .header-menu{
-        transform: translateX(-0%);
-        transition: transform 0.7s linear ;  
-    } 
-
-    .article-one{
-        flex-direction: column;
-        text-align: center;
-        
-    }
-    .blog-one{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        order: 1;
-        
-    }
-    .blog-heading{
-        width: 190%;
-    }
-    .blog-para{
-        width: 130%;
-        position: relative;
-    }
-    .logo-img{
-       justify-content: center;
-       position: relative;
-       left: 50px;
-    }
-    .logo-img img{
-        padding-right: 40px;
-    }
-    .collections{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .see-more-button{
-        left: 250px;
-        bottom: 15px;
-    }
-};
-  
