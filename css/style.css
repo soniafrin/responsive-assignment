@@ -145,31 +145,47 @@ hr{
 /* section three start here  */
 .section-three{
     position: relative;
-    top: 200px;
+    top: 300px;
 }
-.popular-collection{
-    width: 1047px;
-    height: 1662px;
-}
+
 .collections-heading{
     font-size: 28px;
     text-align: center;
+    margin-bottom: 40px;
+    /* margin-left:65px; */
+    font-weight: 600;
+
 }
 .collections{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 20px;
+    width: 980px;
+    position: relative;
+    left: 170px;
+    
 }
 .collection{
-    width: 329px;
+    width: 302px;
     height: 476px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 15px 0.1px #AAAAAA;
 }
 .collection-img{
+    margin: 0;
+    padding: 0;
+}
+.collection-img img{
+    border-radius: 5px;
     width: 300px;
     height: 256px;
 }
-.collection-info{
+/* .collection-info{
     margin-left: 40px;
-}
+} */
 .tripod-heading{
+    color: #18191F;
     font-size: 28px;
     margin-bottom: 0;
     margin-top: 20;
@@ -179,8 +195,12 @@ hr{
 .tripod-price{
     font-size: 24px;
     margin-top: 14px;
-    /* font-weight: normal; */
-
+    color: rgba(0, 0, 0, 0.87);
+}
+.fill-star, .half-star{
+    color: #FB8200;
+    font-size: 12px;
+    
 }
 .ratings {
     display:flex;
@@ -189,15 +209,22 @@ hr{
     top: -30px;
 }
 .rating{
+    color: #787885;
     padding-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
 }
+
 .collection-para{
+    font-family: Inter;
+    line-height: 143%;
+    color: #5E6366;
     font-size: 14px;
     font-weight: 700;
-    width: 196px;
-    height: 61px;
-   position: relative;
-   top: -50px;
+    width: 170px;
+    position: relative;
+    top: -45px;
+    margin-bottom: 0;
     
 }
 
